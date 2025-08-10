@@ -1,0 +1,325 @@
+.container1{
+    position: absolute;
+    border: 7px solid;
+    height: 505px;
+    width: 310px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: scroll;
+    scrollbar-width: none;
+    overscroll-behavior: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrq-WiDabof5l3_t0bnqjTiksfq7-UoWjYrppnaNeD2qira42Ve6JHPjMpUVFsM5tfFDY&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 39%;
+}
+.child1{
+    border: 1px solid rgb(112, 106, 106);
+    height: 20px;
+    background-color:rgb(112, 106, 106);
+   border-top-left-radius: 38px;
+   border-top-right-radius: 45px;
+   margin-right:5px;
+   width: 301px;
+   margin-left: 1px;
+   border-top: none; 
+   border-bottom: 1px solid;
+   position: fixed;
+   /* position: absolute; */
+  /* top: 0; */
+  z-index: 1; 
+}
+.symbol1{
+    display: inline-block;
+    position: absolute;
+    margin-left: 260px;
+    padding-top: 3px;
+}
+.symbol2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 240px;
+    padding-top: 3px;
+    color: white;
+}
+.symbol3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 3px;
+    color: rgb(231, 45, 45);
+}
+.symbol4{
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    padding-top: 3px;
+    color:blue;
+}
+.container2{
+    /* border: 2px solid green; */
+    height: 45px;
+   /* position: absolute; */
+   background-color: black;
+   width: 298px;
+   position: fixed;
+   display: flex;
+   top: 85px;
+   z-index: 10;
+}
+.sub-child1 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+  margin-left: -8px; 
+  font-size: 30px;
+  margin-top: 9px; 
+
+}
+.sub-child2{
+    display: inline-block;
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+   margin-top: 1px;
+   margin-left: 20px;
+   margin-top: 4px;
+   overflow: hidden;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    margin-top: 2px;
+    object-fit: cover;
+    /* object-position: center top; */
+    margin: 0;   
+   padding-bottom: 10px; 
+}
+ p1{
+     display: inline-block;
+     color: white;
+    margin-left: 65px;
+    position: absolute;
+    margin-top: 15px;
+ } 
+.container3{
+    /* display: inline-block; */
+ /* border: 2px solid red; */
+ height: 25px;
+margin-top: 10px;
+}
+.child--1{
+position: absolute;
+/* border: 2px solid red; */
+width: 15px;
+color: white;
+margin-left: 220px;
+margin-top: 2px;
+}
+.child--2{
+position: absolute;
+/* border: 2px solid red; */
+width: 15px;
+color: white;
+margin-left: 251px;
+margin-top: 2px;
+}
+.child--3{
+position: absolute;
+/* border: 2px solid red; */
+width: 15px;
+color: white;
+margin-left: 280px;
+margin-top: 2px;
+}
+.days {
+    /* border:2px solid; */
+    width: 70px;
+    height: 10px;
+    margin-top: 50px;
+    text-align: center;
+ margin-left: 40%; 
+ padding-bottom: 10px;
+ border-radius: 5px;
+ background-color: rgb(28, 27, 27);
+ margin-bottom: 10px;
+     position: sticky;
+    top: 65px;               
+    z-index: 5; 
+}
+.days p{
+    color: grey;
+    margin-top: 3px;
+    margin-top: 88px;
+ }
+
+.frnd-1 p{
+    border: 2px solid;
+    /* height: 30px; */
+    margin-left: 150px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: rgb(30, 167, 30);
+    /* color: white; */
+    margin-bottom: 2px;
+    padding-top: 7px;
+    
+    
+}
+.frnd-2 p{
+    border: 2px solid;
+    margin-left: 10px;
+    /* height: 30px; */
+    text-align: center;
+    margin-right: 150px;
+    border-radius: 8px;
+    background-color: rgb(30, 167, 30);
+    /* color: white; */
+    margin-bottom: 2px;
+    padding-top: 7px;  
+}
+/* .container5{
+border: 2px solid;
+
+height: 30px;
+margin-top: 20px;
+width: 66px;
+margin-left: 120px;
+border-radius: 5px;
+background-color:  rgb(28, 27, 27);
+padding: 2px;
+position: fixed; 
+ top: 400px;
+} */
+/* .container5 p6{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: grey;
+} */
+/* .container6{
+border: 2px solid; 
+
+height: 30px;
+margin-top: 20px;
+width: 80px;
+margin-left: 105px;
+border-radius: 5px;
+background-color:  rgb(28, 27, 27);
+} */
+/* .container6 p7{
+    padding-left: 11px;
+    padding-bottom: 15px;
+    color: grey;
+
+} */
+/* .container7{
+border: 2px solid; 
+
+height: 30px;
+margin-top: 20px;
+width: 80px;
+margin-left: 105px;
+border-radius: 5px;
+background-color:  rgb(28, 27, 27);
+} */
+/* .container7 p8{
+    padding-left: 17px;
+    padding-bottom: 15px;
+    color: grey; */
+/* } */ 
+img{
+    width: 100%;
+    height: auto;
+   font-size: 100px;
+}
+.container8{
+    /* position: absolute; */
+    display: inline-block;
+    border: 2px solid grey;
+    height: 35px;
+    border-radius: 5px;
+   width: 248px;
+   margin-bottom: 10px;
+   margin: 10px;
+   border-radius: 15px;
+   margin-left: 7px;
+position: fixed;
+bottom: 25px;
+z-index: 100px;
+background-color: white;
+
+}
+ .brother1{
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    margin-top: -26px;
+    margin-bottom: 10px;
+    
+}
+ .brother2{
+    display: inline-block;
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 25px;
+    margin-left: 75px;
+    margin-top: -27px;
+    margin-bottom: 10px;
+    margin-left: 145px;
+    
+}
+ .brother3{
+    position: absolute;
+    display: inline-block;
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    margin-left: 179px;
+    margin-top: -23px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+.brother4{
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 25px;
+    margin-left: 210px;
+    margin-top: -23px;
+    margin-bottom: 10px;
+}
+.container9{
+    /* position: absolute; */
+    /* border: 2px solid; */
+    width: 22px;
+    height: 22px;
+    margin-left: 262px;
+    margin-top: 5px;
+    border-radius: 100%;
+   padding-left: 5px;
+   font-size: 17px;
+   padding-top: 7px;
+   background-color: green;
+   color: white;
+   position: fixed;
+   bottom: 40px;
+}
+
+
+
